@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body,h1,h2,h3,h4,h5,h6,span,input,button{
+	font-family: font-family: 'Playfair Display', serif;
+}
+
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+.header{
+	width: 100%;
+	display: flow-root;
+}
+.navbar{
+	width: 100%;
+	float: left; 
+	padding: 30px 0px;
+}
+.logo{
+	width: 20%;
+	float: left;
+	text-align: left;
+}
+.menu-item{
+	width: 80%;
+	float: left;
+	text-align: right;
+}
+.menu-item ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 52px;
+} 
+.menu-item ul li a{
+	text-transform: uppercase;
+	color: #828282
+}
+.menu-item ul li a:hover{
+	color: black;
+	
+}
+.banner{
+	width: 100%;
+	display: flow-root;
+}
+
+.post-content{
+	padding: 50px;
+}
+.category{
+	text-transform: uppercase;
+	color: rgb(180, 173, 158);
+
+}
+.title{
+	color: rgb(98, 98, 98);
+	margin: 20px 0px;
+}
+.desc{
+	color: rgb(98, 98, 98);
+	margin-bottom: 25px;
+
+}
+.comment{
+	text-transform: uppercase;
+	color: rgb(180, 173, 158);
+}
+
+.gallery{
+	padding: 50px;
+	display: flow-root;
+}
+
+.post{
+	width: 100%;
+	float: left;
+}
+
+.left{
+	width: 48%;
+	float: left;
+}
+
+.right{
+	width: 48%;
+	float: right;
+}
+
+.title2{
+	color: rgb(98, 98, 98);
+	margin: 20px 0px;
+}
+.desc2{
+	color: rgb(98, 98, 98);
+	margin-bottom: 25px;
+
+}
+
+.title3{
+	color: rgb(98, 98, 98);
+	margin: 20px 0px;
+}
+.category2{
+	color: rgb(180, 173, 158);
+	padding-top: 15px;
+    padding-bottom: 10px;
+
+}
+.category3{
+	color: rgb(180, 173, 158);
+	padding-top: 15px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+
+}
+.title4{
+	color: rgb(98, 98, 98);
+	margin: 20px 0px;
+
+}
+.title5{
+	color: rgb(98, 98, 98);
+	margin: 20px 0px;
+}
+.desc3{
+	color: rgb(98, 98, 98);
+	margin-bottom: 25px;}
+
+	.subscription{
+		width: 100%;
+		display: flow-root;
+		color: rgb(98, 98, 98);
+		text-align: center;
+		background-color: rgb(240,240,240);
+		padding: 60px 0px;
+	}
+	.subscription h1{
+		margin-bottom: 35px;
+	}
+form input{
+	padding: 15px 20px;
+    width: 337px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+
+form input:focus{
+	outline: none;
+}
+
+form{
+	position: relative;
+}
+
+form i{
+	position: absolute;
+	top: 20px;
+    right: 392px;
+    transform: rotate(54deg);
+}
+
+.btn button{
+	padding: 18px 33px;
+    font-size: 20px;
+    background: transparent;
+    border: 1px solid black;
+    margin: 50px 0px;
+}
+.btn{
+	text-align: center;
+
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+
+}
+.header2{
+	width: 100%;
+	display: flow-root;
+	background: #f0f0f0;
+	padding: 47px 0;
+    margin-top: 55px;
+    font-size: 20px;
+}
+
+.menu-item2{
+	width: 70%;
+	float: left;
+	text-align: right;
+}
+.menu-item2 ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 40px;
+}
+.menu-item2 ul li a{
+	color: #828282
+}
+.menu-item1{
+	width: 30%;
+	text-align: left;
+	float: left;
+}
+
+
+.menu-item1 ul li{
+	list-style: none;
+	display: inline-block;
+	padding-inline-start: 20px;
+	
+}
+
+.menu-item1 ul li a{
+	color: #828282
+}
